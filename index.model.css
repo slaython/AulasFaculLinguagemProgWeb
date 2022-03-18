@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;   
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gold {
+    color: rgba(255, 217, 0, 0.687);
+    width: 1016px;
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+    border-radius: 8px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* inicio navbar */
+header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.header {
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    width: 1016px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: gold;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+.nav a:hover {
+    color: white;
+}
+/* fim navbar */
+
+/* inicio pagina agenda */
+.tabela {
+    width: 1016px;
+}
+
+
+.titulotabela {
+    background-color: rgb(238, 238, 238);
+    height: 50px;
+}
+
+.main {
+    height: 800px;
+}
+
+.tabela table {
+    border: 0.1px solid rgb(185, 185, 185);
+    margin-top: 20px;
+    width: 1016px;
+    text-align: center;
+}
+
+.preto {
+    background-color: black;
+}
+/* fim pagina agenda */
+
+/* inicio pagina galeria */
+.galeria {
+    width: 1016px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.galeria p {
+    margin: 20px;
+}
+
+.fotos div {
+    margin-bottom: 20px;
+}
+
+.resumo {
+    background-color: rgba(255, 217, 0, 0.489);
+    width: 465px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.resumo img {
+    width: 465px;
+}
+
+.resumo p {
+    text-align: justify;
+    font-size: 12px;
+}
+
+.resumo input {
+    width: 300px;
+    padding: 5px 0;
+    margin-bottom: 15px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.resumo input:hover{
+    background-color: black;
+}
+
+.classefotos {
+    display: flex;
+    justify-content: space-around;
+    width: 1016px;
+}
+/* fim pagina galeria */
+
+/* inicio pagina marcarevento */
+.formulario {
+    width: 1016px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+}
+
+form h4 {
+    width: 400px;
+    border-bottom: 0.3px solid;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.texto {
+    width: 400px;
+    height: 30px;
+    border: none;
+}
+
+.textogrande {
+    width: 400px;
+    height: 90px;
+    border: none;
+}
+
+.botao {
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: rgb(0, 179, 72);
+    color: white;
+}
+
+.listagrande {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 0.3px solid black;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.texto {
+    margin-top: 8px;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    border: 0.3px solid black;
+    border-radius: 10px;
+}
+
+.mapa {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mapa iframe {
+    margin-top: 20px;
+    width: 1016px;
+}
+
+.contatos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    justify-content: flex-start;
+    height: 400px;
+}
+
+.contatos h4 {
+    width: 400px;
+    border-bottom: 0.3px solid;
+}
+
+.contatosmenor {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contatosmenor div p {
+    text-align: center;
+}
+
+.whats {
+    border: none;
+}
+/* fim pagina marcarevento */
